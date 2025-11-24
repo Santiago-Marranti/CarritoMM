@@ -20,6 +20,20 @@
     @media (max-width:575px){
       .product-title{font-size:.95rem}
     }
+    @media (max-width: 575px) {
+        /* Hacemos las tarjetas más pequeñas para que quepan dos en la pantalla del celular */
+        .product-card img.card-img-top {
+            height: 120px; 
+        }
+        .product-card .card-body {
+            height: 100px; 
+            padding: 0.75rem; 
+        }
+        /* Reducimos el tamaño del texto para asegurar que quepa */
+        .product-card .product-title {
+            font-size: 0.85rem;
+        }
+    }
   </style>
 </head>
 <body>
