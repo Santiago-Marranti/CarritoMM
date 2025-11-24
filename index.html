@@ -66,15 +66,15 @@
 <script>
 // --- Datos de ejemplo (puedes editarlos o cargarlos desde JSON externo) ---
 const productos = [
-  {id:1, nombre:'Auriculares inalámbricos', precio:54999, img:'https://m.media-amazon.com/images/I/71F2ccIPPLL._AC_SL1500_.jpg'},
-  {id:2, nombre:'Silla gamer', precio:199200, img:'https://i.blogs.es/cdab8d/silla-gaming-gtplayer/450_1000.webp'},
+  {id:1, nombre:'Auriculares inalámbricos', precio:54999, img:'https://i.blogs.es/2c69a9/astroa50/450_1000.jpg'},
+  {id:2, nombre:'Silla gamer', precio:199200, img:'https://www.perozzi.com.ar/46727-large_default/daihatsu-silla-gamer-d-ga20rd.jpg'},
   {id:3, nombre:'Mouse gamer Redragon ', precio:22999, img:'https://m.media-amazon.com/images/I/61C7blR0ZAL._AC_SL1500_.jpg'},
-  {id:4, nombre:'Mochila urbana,para notebook', precio:15999, img:'https://http2.mlstatic.com/D_NQ_NP_847588-MLU75357217789_032024-O.webp'},
+  {id:4, nombre:'Mochila urbana,para notebook', precio:15999, img:'https://images.fravega.com/f300/97df481b77d3fe68cbc79f0894d31f94.jpg.webp'},
   {id:5, nombre:'Soporte para laptop', precio:9999, img:'https://http2.mlstatic.com/D_NQ_NP_874688-MLA78863543696_092024-O.webp'},
   {id:6, nombre:'Cargador USB-C 65W', precio:11999, img:'https://http2.mlstatic.com/D_NQ_NP_738296-MLA84095782178_052025-O.webp'},
   {id:7, nombre:'Monitor gamer', precio:199200, img:'https://app.contabilium.com/files/explorer/48428/Productos-Servicios/concepto-14045258.jpg'},
   {id:8, nombre:'Teclado mecánico compacto', precio:74999, img:'https://acdn-us.mitiendanube.com/stores/001/717/384/products/pmechanic-1-pica-4a6c4821b3f49780c517555283820785-480-0.png'},
-  {id:9, nombre:'Gafas VR', precio:81999, img:' https://images.ecestaticos.com/MEIpDb1IU1-W-Nssibts9QRbKnA=/0x0:640x361/1440x810/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2Fdfb%2Fdcc%2F863%2Fdfbdcc86309f31d5b119ea5180472621.jpg'},
+  {id:9, nombre:'Gafas VR', precio:81999, img:' https://images.fravega.com/f300/95d066e58df4e07a8594edaf18b64f61.jpg.webp'},
   {id:10, nombre: 'Joystick ps5', precio:158900, img:'https://nextgames.com.ar/img/Public/1040/77913-producto-61mkouq8cel-sl1500.jpg'},
   {id:11, nombre: 'Luces led',precio: 15900, img: 'https://http2.mlstatic.com/tira-de-luces-led-rgb-con-control-remoto-164-ft-D_NQ_NP_648074-MLM41922398493_052020-F.jpg'},
   {id:12, nombre: 'Escritorio moderno para pc',precio: 298900, img: 'https://m.media-amazon.com/images/I/71mYyAgjy9L._AC_SL1500_.jpg'},
@@ -82,7 +82,7 @@ const productos = [
   {id:13, nombre: 'Disco duro externo',precio: 199800, img: 'https://media.adeo.com/media/1866147/format/jpeg'},
   {id:14, nombre: 'Gabinete gamer',precio: 548900, img: 'https://tecnaninfo.com.br/wp-content/uploads/2023/01/gabinete-gamer-superframe-storm-mid-tower-rgb-vidro-temperado-atx-sem-fonte-sem-fan_146702-1024x1024.jpg'},
   {id:15, nombre: 'Camara HD 1080P',precio: 189000, img: 'https://m.media-amazon.com/images/I/61jvLcpcASL._AC_SL1500_.jpg'},
-  {id:16, nombre: 'Microfono usb',precio: 190000, img: 'https://www.megatone.net/images/Articulos/zoom2x/355/MKT0091EBX.jpg'},
+  {id:16, nombre: 'Microfono usb',precio: 190000, img: 'https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTAomqXFcSqZ-QThAgMceTZ_OK5Iev5bZeGjpRDPebP6_xUXvGdeLXPA7F4BGD1nUDjcOb5bt0eJu2y5QwK2hWESSygG1y5fYi0hgsRv9XS2k7gpHsbUWYrLxY'},
   {id:17, nombre: 'Playstation 5', precio: 1950900, img:'https://i5.walmartimages.com/seo/Sony-PlayStation-5-Video-Game-Console-Ps5-Disc-Console-Japanese-Edition-New_1536c1c9-0c26-4ce6-a5e1-1825ca064d05.1434e86832a815bb366d12b0a854390d.jpeg'},
   {id:18, nombre: 'Consola Xbox', precio:1589000, img:'https://i5.walmartimages.com/seo/Xbox-Series-X-Video-Game-Console-Black-Bundle_89d1cc3b-aaad-4283-a15b-71288b1a09b5.173c31c2a51119206f128fd122e78e4c.jpeg'},
   {id:19, nombre: 'Lampara gamer acrilica', precio:120000, img:'https://m.media-amazon.com/images/I/81+5lAWGF7L._AC_SX466_.jpg'},
