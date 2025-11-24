@@ -78,6 +78,21 @@
   object-fit: contain;     /* escala sin recortar */
 }
 
+.product-img-box {
+  width: 100%;
+  aspect-ratio: 1 / 1;       /* cuadrado en todos los dispositivos */
+  background: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.product-img-box img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;       /* no recorta ni deforma */
+}
 
   </style>
 </head>
@@ -159,7 +174,7 @@ function renderProductos(){
     card.className = 'card product-card p-0';
     card.style.width = '220px';
     card.innerHTML = `
-<div class="img-container">
+<div class="product-img-box">
   <img src="${p.img}" alt="${p.nombre}">
 </div>
 
