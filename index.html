@@ -228,7 +228,7 @@ window.addEventListener('load', ()=>{
   renderProductos();
   renderCarrito();
   document.getElementById('btn-empty').addEventListener('click', vaciarCarrito);
-  document.getElementById('btn-checkout').addEventListener('click', ()=>alert('Simulando pago... (aquí integrarías el metodo de pago)'));
+  document.getElementById('btn-checkout').addEventListener('click', ()=>alert('Se te ha debitado ' + formatPrecio(0) + ', ¡Gracias por su compra!'));
   // tema simple
   document.getElementById('btn-theme').addEventListener('click', ()=>{
     document.body.classList.toggle('bg-dark');
